@@ -12,11 +12,5 @@ const AdditionalFeature = props => {
   );
 };
 
-const mapStateToProps = state => {
-  return {
-    car: state.car
-  }
-}
 
-
-export default connect(mapStateToProps, { addFeature })(AdditionalFeature);
+export default connect(null, { addFeature })(AdditionalFeature);
