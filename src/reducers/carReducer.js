@@ -15,6 +15,6 @@ export const initialState = {
     ]
 }
 
-export const carReducer = (state, action) => {
+export const carReducer = (state = initialState, action) => {
     return state;
 }
