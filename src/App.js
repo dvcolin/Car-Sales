@@ -22,7 +22,7 @@ const App = () => {
       { id: 4, name: 'Rear spoiler', price: 250 }
     ]
   };
-
+<h1>Hello, I am changing your project</h1>
   const removeFeature = item => {
     // dispatch an action here to remove an item
   };
